@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 
-path <- "/Users/hagenlamprecht/Documents/University/WS_22_23/Automated_ML/XGBoost"
+path <- setwd()
 #get meta features of evaluated tasks
 features <- read_csv(paste(path, "Data/features.csv", sep = "/"))
 

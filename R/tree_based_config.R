@@ -3,7 +3,7 @@ library(tidyr)
 library(readr)
 library(rpart)
 
-path <- "/Users/hagenlamprecht/Documents/University/WS_22_23/Automated_ML/XGBoost"
+path <- setwd()
 
 #same function as given
 eval_task <- function(task = 22, meta = meta_feature_names, hyper = default_config) {

@@ -1,6 +1,6 @@
 library(readr)
 library(dplyr)
-path <- "/Users/hagenlamprecht/Documents/University/WS_22_23/Automated_ML/XGBoost"
+path <- setwd()
 setwd(paste(path, "R", sep = "/"))
 source("utils.R")
 

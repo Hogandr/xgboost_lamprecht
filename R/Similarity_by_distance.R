@@ -3,7 +3,7 @@ library(readr)
 library(dplyr)
 library(data.table)
 
-path <- "/Users/hagenlamprecht/Documents/University/WS_22_23/Automated_ML/XGBoost"
+path <- setwd()
  
 #normal eval function, but on top differentiation between tasks, because task 168336 doesnt have all meta features
 eval_task <- function(task = 22, hyper = default_config) {

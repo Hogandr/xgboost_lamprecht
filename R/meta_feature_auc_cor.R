@@ -2,7 +2,7 @@ library(tidyr)
 library(data.table)
 library(readr)
 
-path <- "/Users/hagenlamprecht/Documents/University/WS_22_23/Automated_ML/XGBoost"
+path <- setwd()
 
 #get meta features
 features <- read_csv(paste(path, "Data/features.csv", sep = "/"))

@@ -5,4 +5,4 @@ This github project tries to build a meta learning approach to get a good starti
 
 Packages:
 1. "dplyr" & "tidyr": used for manipulating data.frames (https://dplyr.tidyverse.org & https://tidyr.tidyverse.org)
-2. "rpart": Package for fitting decision trees (https://rdocumentation.org/packages/rpart/versions/4.1.19)
+2. "rpart": package for fitting decision trees (https://rdocumentation.org/packages/rpart/versions/4.1.19)

@@ -2,7 +2,7 @@
 This github project tries to build a meta learning approach to get a good starting performance on new tasks:
 
 1. All data used for the scripts are either in the xgboost_lamprecht/Data folder or on https://syncandshare.lrz.de/getlink/fiV9MfvupyNzWpT99M5RhFh2/ 
-2. All scripts are in the xgboost_lamprecht/R folder. Results used in the paper are primarily from xgboost_lamprecht/R/Similarity_by_distance.R
+2. All scripts are in the xgboost_lamprecht/R folder. Results used in the paper are primarily from Similarity_by_distance.R
 
 Packages:
 1. "dplyr" & "tidyr": used for manipulating data.frames (https://dplyr.tidyverse.org & https://tidyr.tidyverse.org)
